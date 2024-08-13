@@ -1,15 +1,13 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
-public class firstTest {
+public class Test2 {
    public static WebDriver driver;
 
 
-    @Test
+    @org.testng.annotations.Test
    public void openGoogle() {
 
         /*// instead of system set property for webdriver.chrome.driver and set compatible chromedriver drivers below line use this
@@ -26,7 +24,7 @@ public class firstTest {
     }
 
 
-    @Test
+    @org.testng.annotations.Test
     public void openSC(){
 
         driver = new ChromeDriver();
