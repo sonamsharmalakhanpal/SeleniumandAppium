@@ -31,7 +31,7 @@ public class firstTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         try {
-            driver.get("https://www.sc.com/in/bank-with-us/online-banking-login/");
+            driver.get("https://www.sc.com/in/");
             // Use WebDriverWait for synchronization
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Login']"))).click();
